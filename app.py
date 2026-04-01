@@ -44,6 +44,7 @@ def check_password_strength(password):
 
 # Input (LIVE)
 password = st.text_input("Enter your password", type="password")
+st.write("This app checks password strength and helps users create secure passwords.")
 
 # Live update happens automatically
 if password:
